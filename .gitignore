@@ -1,0 +1,16 @@
+.idea
+.spyproject
+__pycache__
+jobs/*
+out_job/*
+logs/*
+cache
+*.ipynb
+scripts
+*.pth
+*.torch
+ign_*
+*.png
+old*
+*ablations
+*.jpg
