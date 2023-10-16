@@ -2,6 +2,9 @@
 # Divide&Classify: Fine-Grained Classification for City-Wide Visual Geo-localization
 This is the official repository of the ICCV23 paper _Divide&Classify: Fine-Grained Classification for City-Wide Visual Geo-localization_.
 
+[[ArXiv](https://arxiv.org/abs/2307.08417)] [[BibTex](https://github.com/gmberton/EigenPlaces#cite)]
+
+
 ## Environment
 
 The required dependencies can be installed by running 
@@ -17,6 +20,31 @@ You can run evaluation of one of our pretrained models
 
 Note that the eval script still requires the path to the train set because the classes creation is dependent on it.
 We will release our pretrained models soon.
+
+
+## Model zoo
+
+More models will be added soon!!
+
+<details>
+    <summary><b>Pretrained models with our AAMC and different backbones</b></summary></br>
+    Pretained networks employing different backbones.</br></br>
+	<table>
+		<tr>
+			<th rowspan=2>Model</th>
+			<th colspan="3">Training on SF-XL, M=20, N=2</th>
+	 	</tr>
+	 	<tr>
+	   		<td>SF-XL query_v1 (LR@1)</td>
+	   		<td>Download</td>
+	 	</tr>
+		<tr>
+			<td>Efficient-Net B0 + AAMC</td>
+			<td>61.5</td>
+			<td><a href="https://drive.google.com/file/d/19XOV8AIHQE05I1rVeedtGZjU4hpiNFh0/view?usp=sharing">[Link]</a></td>
+	 	</tr>
+	</table>
+</details>
 
 ## Training
 
@@ -37,3 +65,16 @@ More information on the dataset can be found on the original repository [CosPlac
 Parts of this repo are inspired by the following repositories:
 - [CosFace](https://github.com/MuggleWang/CosFace_pytorch/blob/master/layer.py)
 - [CosPlace](https://github.com/gmberton/CosPlace)
+
+## Cite
+Here is the bibtex to cite our paper
+```
+@InProceedings{Trivigno_2023_ICCV,
+    author    = {Trivigno, Gabriele and Berton, Gabriele and Aragon, Juan and Caputo, Barbara and Masone, Carlo},
+    title     = {Divide\&Classify: Fine-Grained Classification for City-Wide Visual Geo-Localization},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {11142-11152}
+}
+```
