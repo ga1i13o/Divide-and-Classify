@@ -2,7 +2,7 @@
 # Divide&Classify: Fine-Grained Classification for City-Wide Visual Geo-localization
 This is the official repository of the ICCV23 paper _Divide&Classify: Fine-Grained Classification for City-Wide Visual Geo-localization_.
 
-[[ArXiv](https://arxiv.org/abs/2307.08417)] [[BibTex](https://github.com/gmberton/EigenPlaces#cite)]
+[[ArXiv](https://arxiv.org/abs/2307.08417)] [[BibTex](https://github.com/ga1i13o/Divide-and-Classify/#cite)]
 
 
 ## Environment
